@@ -1,0 +1,51 @@
+/* MovieDetailsPage.module.css */
+.movieDetailsContainer {
+  display: flex;
+  margin: 20px;
+}
+
+.image {
+  width: 300px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.movieDetailsWrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.goBackButton {
+  display: flex;
+  align-items: flex-start;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.goBackButton:hover {
+  background-color: #0056b3;
+}
+
+.goBackLink {
+  display: flex;
+  margin-top: 20px;
+  text-decoration: none;
+}
+
+/* .list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+} */
+
+/* .listItem {
+  padding: 10px;
+} */
